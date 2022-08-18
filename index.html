@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+    <div class="w-75 mx-auto my-5">
+        <h2>Bookmarker</h2>
+    </div>
+    <hr class="w-75 mx-auto">
+
+    <div class="w-75 mx-auto my-2 text-center py-5 input">
+        <h3>Bookmark your favorite sites</h3>
+        <label  for="" class=" py-3">Site Name</label>
+        <input onkeyup="validateWebName()" type="text" placeholder="Bookmark Name" id="sitenameinput" class="form-control w-50 mx-auto">
+        <label  for="" class="py-3">Site URL</label>
+        <input onkeyup="validateUrlName()" type="text" placeholder="Website URL" id="siteurlinput" class="form-control w-50 mx-auto">
+        <button onclick="addWeb()" type="submit" class="btn-primary rounded-2 px-3 py-1 my-3" >Submit</button>
+    </div>
+
+
+    <div class="w-75 mx-auto  output">
+        <table class="table table-striped">
+            <tbody id="tablebody"></tbody>
+        </table>
+    </div>
+
+    <hr class="w-75 mx-auto">
+
+
+
+
+
+
+        <script src="bootstrap.bundle.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

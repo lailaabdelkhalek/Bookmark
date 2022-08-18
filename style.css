@@ -1,0 +1,12 @@
+h2{
+    color: rgb(170, 170, 170);
+}
+
+
+.input , .output{
+    background-color: rgb(238, 238, 238);
+}
+
+label{
+    font-weight: bold;
+}
